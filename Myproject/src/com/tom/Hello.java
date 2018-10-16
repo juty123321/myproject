@@ -2,6 +2,12 @@ package com.tom;
 
 public class Hello {
 	public static void main(String[] args) {
+		String name = "rita";
+		int math = 70;
+		int english = 90;
+		System.out.println(name + "\t" + english + "\t" + math + "\t" +
+		(english + math) / 2);
+		
 		// int age = 20;
 		// float height = 172.6f;
 		// int weight = 53;
@@ -19,7 +25,8 @@ public class Hello {
 		p.hello();
 		// Person rita = new Person();
 		// Person jack = null;
-		// jack.hello();
+		// jack.hello();	
+
 
 	}
 }
