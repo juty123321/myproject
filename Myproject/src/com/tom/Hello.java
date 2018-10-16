@@ -2,11 +2,18 @@ package com.tom;
 
 public class Hello {
 	public static void main(String[] args) {
-		String name = "rita";
-		int math = 70;
-		int english = 90;
-		System.out.println(name + "\t" + english + "\t" + math + "\t" +
-		(english + math) / 2);
+		Student stu = new Student();
+		stu.name = "rita";
+		stu.english = 70;
+		stu.math = 90;
+		stu.print();
+		System.out.println(3 <= 5);
+		
+		String s = new String("abc");
+		String s2 = "abc";
+		System.out.println(s.equals(s2));
+		
+				
 		
 		// int age = 20;
 		// float height = 172.6f;
