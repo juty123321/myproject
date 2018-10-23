@@ -1,9 +1,17 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class Hello {
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Your name");
+		String name = scanner.nextLine();
+		System.out.println(name);
+		
+		
 		Student stu = new Student();
-		stu.name = "rita";
+		stu.name = "Rita";
 		stu.english = 70;
 		stu.math = 90;
 		stu.print();
