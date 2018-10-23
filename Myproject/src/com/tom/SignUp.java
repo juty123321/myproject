@@ -18,7 +18,6 @@ public class SignUp {
 	        String name = scanner.nextLine();
 	        System.out.println("your nick name?");
 	        String nickname = scanner.nextLine();
-	        
 	        System.out.println(age + "/" + name + "/" + nickname);
 	        
 		} else {
