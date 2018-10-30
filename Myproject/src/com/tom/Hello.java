@@ -1,10 +1,20 @@
 package com.tom;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Hello {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		int z = 1;
+		while(z > 0){
+			System.out.println("haha idoit");
+			z = 0;
+			
+		}
+		Random random = new Random();
+		int secret = random.nextInt(100)+1;
+		System.out.println(secret);
+		/*Scanner scanner = new Scanner(System.in);
 		System.out.println("Your name");
 		String name = scanner.nextLine();
 		System.out.println(name);
@@ -19,7 +29,7 @@ public class Hello {
 		
 		String s = new String("abc");
 		String s2 = "abc";
-		System.out.println(s.equals(s2));
+		System.out.println(s.equals(s2));*/
 		
 				
 		
