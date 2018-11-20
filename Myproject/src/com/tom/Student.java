@@ -24,7 +24,28 @@ public class Student {
 		}else{
 			System.out.println("PASS");
 		}
+	}
+	public char getGrading(){
+		char grading = 'F';
+		int average = getAverage();
+		switch(average/10){
+		case 10:
+		case 9:
+			grading = 'A';
+			break;
+		case 8:
+			grading = 'B';
+			break;
+		case 7:
+			grading = 'C';
+			break;
+		case 6:
+			grading = 'D';
+			break;	
 		}
+		return grading;
+	}
+
 	public int highest(){
 		if(english > math){
 			return english;
